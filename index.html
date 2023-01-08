@@ -10,14 +10,26 @@
 </head>
 
 <body>
-    <label for="">Name:</label>
-    <input type="text" name="" id="name">
 
-    <label for="">URL:</label>
-    <input type="text" name="" id="url">
-
-    <button id="add-btn" onclick="addBookmark()">Add</button>
-
+    <div class="inputBox">
+        <span class="input">
+            <span>Name:</span>
+            <input type="text" name="" id="name">
+            <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+        </span>
+        
+        <span class="input">
+            <span>URL:</span>
+            <input type="text" name="" id="url">
+            <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+        </span>
+        
+        <span class="input">
+            <button id="add-btn" onclick="addBookmark()">Add</button>
+        </span>
+    </div>
+    
+    
 
     <h1>Saved bookmarks:</h1>
     <div id="container">
