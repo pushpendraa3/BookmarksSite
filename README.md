@@ -1,4 +1,4 @@
-# BookmarksSite
+# Bookmarks
 
 This is a simple Bookmarks site which saves bookmarks created by user in browser's local storage. 
 
